@@ -81,12 +81,18 @@
             .s2-box {
                 display: flex;
                 width: 272px;
-                background-color: var(--background-3);
+                background-color: var(--background-2);
                 flex-direction: column;
                 gap: 15px;
                 padding: 20px 0;
                 border-radius: 20px;
                 box-shadow: 6px 6px var(--shadow-color);
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    transform: translateY(-10px);
+                    box-shadow: 12px 12px var(--shadow-color);
+                    background-color: #ffffff;
+                }
                 .icon {
                     img {
                         width:auto;
@@ -138,12 +144,18 @@
             .s3-box {
                 display: flex;
                 width: 372px;
-                background-color: var(--background-3);
+                background-color: var(--background-2);
                 flex-direction: column;
                 gap: 15px;
                 padding: 20px 0;
                 border-radius: 20px;
                 box-shadow: 6px 6px var(--shadow-color);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                &:hover {
+                    transform: translateY(-10px); 
+                    box-shadow: 12px 12px var(--shadow-color); 
+                    background-color: #ffffff;
+                }
                 .icon {
                     img {
                         width:auto;
@@ -273,7 +285,7 @@
             .s2-box {
                 display: flex;
                 width: 200px;
-                background-color: var(--background-3);
+                background-color: var(--background-2);
                 flex-direction: column;
                 gap: 15px;
                 padding: 20px 0;
@@ -299,7 +311,6 @@
                     margin: 0 auto;
                 }
             }
-            .s2-box :hover
         }
     }
 }
@@ -331,7 +342,7 @@
             .s3-box {
                 display: flex;
                 width: 350px;
-                background-color: var(--background-3);
+                background-color: var(--background-2);
                 flex-direction: column;
                 gap: 15px;
                 padding: 20px 0;
