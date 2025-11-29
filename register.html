@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Tham Gia Hoạt Động</title>
+    <link rel="stylesheet" href="register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@300;400;600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Prism Studio</h1>
+            
+            <input type="checkbox" id="menu-toggle" style="display: none;">
+
+            <nav>
+                <a href="index.html">Trang Chủ</a>
+                <a href="activity.html">Hoạt Động</a>
+                <a href="gioi_thieu.html">Giới Thiệu</a>
+            </nav>
+            
+            <label for="menu-toggle" class="hamburger">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </label>
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="box">
+            <div class="title">
+                Đăng kí tham gia
+            </div>
+            <div class="discript">
+                Vui lòng điền thông tin chi tiết của bạn để tham gia hoạt động
+            </div>
+            <div class="form">
+                <div class="item">
+                    <p>Họ và tên: </p>
+                    <input type="text" placeholder="Nguyễn Văn A">
+                </div>
+                <div class="item">
+                    <p>Email: </p>
+                    <input type="email" placeholder="email@student.com">
+                </div>
+                <div class="item">
+                    <p>Số điện thoại: </p>
+                    <input type="tel" placeholder="0897654354">
+                </div>
+                <div class="item1">
+                    <p>Chọn hoạt động bạn muốn tham gia:</p>
+                    <select name="activity" id="activity-select" class="select"> 
+                        <option value="" disabled selected>Hoạt động bạn sẽ tham gia: </option>
+                        <option value="dev">Dev</option>
+                        <option value="design">Design</option>
+                        <option value="content">Ban nội dung</option>
+                    </select>
+                </div>
+                <div class="item2">
+                    <p>Lý do:</p>
+                    <input type="text" placeholder="Ví dụ: Tôi muốn hoàn thiện kỹ năng giao tiếp và cải thiện thiết kế UX/UI">
+                </div>
+            </div>
+            <button class="button">Hoàn tất đăng kí</button>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section footer-brand">
+                <h3>Prism Studio</h3>
+                <p>Nơi khơi nguồn sáng tạo, kết nối tri thức và phát triển kỹ năng mềm cho thế hệ trẻ.</p>
+                <p style="margin-top: 10px;">Địa chỉ: Tòa nhà Green, Khu Đô Thị Sáng Tạo, TP.HCM</p>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h4>Khám Phá</h4>
+                <ul>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="activity.html">Hoạt Động</a></li>
+                    <li><a href="gioi_thieu.html">Giới Thiệu</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-social">
+                <h4>Kết Nối Cộng Đồng</h4>
+                <div class="social-icons">
+                    <a href="https://facebook.com/prismstudio" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://instagram.com/prismstudio" title="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://youtube.com/prismstudio" title="Youtube"><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href="mailto:contact@prismstudio.vn" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Prism Studio. Bảo lưu mọi quyền. Phát triển cộng đồng bền vững.</p>
+        </div>
+    </footer>
+</body>
+</html>
