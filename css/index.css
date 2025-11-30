@@ -150,7 +150,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 780px;
+    height: 580px;
     background-color: var(--background-1);
     .s2-wrap {
         display: flex;
@@ -160,10 +160,10 @@ h1, h2, h3 {
         gap: 30px;
         text-align: center;
         .s2-head {
-            font-size: 64px;
+            font-size: 45px;
             color: var(--title-color-3);
             font-weight: 800;
-            max-width: 680px;
+            max-width: 850px;
             margin: 0 auto;
         }
         .s2-body {
@@ -192,7 +192,7 @@ h1, h2, h3 {
                     }
                 }
                 .title {
-                    font-size: 45px;
+                    font-size: 24px;
                     color: var(--title-color-1);
                     width: 200px;
                     margin: 0 auto;
@@ -515,7 +515,7 @@ h1, h2, h3 {
     background-color: rgb(144, 124, 133);
     .s1-wrap {
         width: 100%;
-        max-width: 375px;
+        max-width: 450px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -526,7 +526,7 @@ h1, h2, h3 {
             color: #FFFFFF;
         }
         .text {
-            font-size: 18px;
+            font-size: 16px;
             max-width: 375px;
             margin: 0 auto;
             color: rgb(250, 239, 246);
