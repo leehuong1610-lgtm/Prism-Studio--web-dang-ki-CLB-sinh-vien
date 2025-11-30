@@ -595,7 +595,7 @@ h1, h2, h3 {
         height: 170px;
         padding: 10px 30px;
         gap: 8px;
-        background-color: rgb(0 0 0 / 41%);
+        background-color: rgba(0, 0, 0, 0.474);
         position: absolute;
         z-index: 3;
         top: 180px;
