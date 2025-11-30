@@ -94,9 +94,8 @@ h1, h2, h3 {
 }
 
 .btn-accent {
-    background-color: var(--color-accent);
+    background-color: #1c834a;
     color: white;
-    box-shadow: 0 4px 8px rgba(46, 204, 113, 0.4);
 }
 
 .btn-accent:hover {
