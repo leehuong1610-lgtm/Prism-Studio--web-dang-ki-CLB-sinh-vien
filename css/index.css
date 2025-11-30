@@ -13,7 +13,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Inter";
+    font-family: "Poppins";
 }
 .section1 {
     display: flex;
@@ -165,14 +165,14 @@
                 .title {
                     font-size: 24px;
                     color: var(--title-color-1);
-                    width: 200px;
+                    width: 90%;
                     margin: 0 auto;
                     font-weight: 600;
                 }
                 .text {
                     font-size: 18px;
                     color: var(--text-color);
-                    width: 85%;
+                    width: 95%;
                     margin: 0 auto;
                 }
             }
@@ -300,14 +300,14 @@
                 .title {
                     font-size: 20px;
                     color: var(--title-color-1);
-                    width: 200px;
+                    width: 90%;
                     margin: 0 auto;
                     font-weight: 600;
                 }
                 .text {
                     font-size: 16px;
                     color: var(--text-color);
-                    width: 85%;
+                    width: 95%;
                     margin: 0 auto;
                 }
             }
@@ -357,14 +357,14 @@
                 .title {
                     font-size: 20px;
                     color: var(--title-color-1);
-                    width: 200px;
+                    width: 95%;
                     margin: 0 auto;
                     font-weight: 600;
                 }
                 .text {
                     font-size: 16px;
                     color: var(--text-color);
-                    width: 85%;
+                    width: 95%;
                     margin: 0 auto;
                 }
             }
@@ -488,14 +488,14 @@
                 .title {
                     font-size: 20px;
                     color: var(--title-color-1);
-                    width: 200px;
+                    width: 90%;
                     margin: 0 auto;
                     font-weight: 600;
                 }
                 .text {
                     font-size: 16px;
                     color: var(--text-color);
-                    width: 85%;
+                    width: 95%;
                     margin: 0 auto;
                 }
             }
