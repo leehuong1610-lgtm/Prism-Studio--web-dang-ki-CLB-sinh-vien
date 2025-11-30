@@ -9,4 +9,5 @@ form.addEventListener("submit", function(e) {
     setTimeout(() => {
         alertBox.style.display = "none";
     }, 1850);
+    window.location.href="./activity.html";
 });
