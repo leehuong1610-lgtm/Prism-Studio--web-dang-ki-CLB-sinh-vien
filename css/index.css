@@ -165,7 +165,7 @@
                 .title {
                     font-size: 24px;
                     color: var(--title-color-1);
-                    width: 90%;
+                    width: 95%;
                     margin: 0 auto;
                     font-weight: 600;
                 }
@@ -450,7 +450,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1300px;
+    height: 1100px;
     background-color: var(--background-1);
     .s2-wrap {
         display: flex;
@@ -488,7 +488,7 @@
                 .title {
                     font-size: 20px;
                     color: var(--title-color-1);
-                    width: 90%;
+                    width: 95%;
                     margin: 0 auto;
                     font-weight: 600;
                 }
@@ -507,7 +507,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 880px;
+    height: 780px;
     background-color: var(--background-2);
     .s3-wrap {
         display: flex;
@@ -545,14 +545,14 @@
                 .title {
                     font-size: 20px;
                     color: var(--title-color-1);
-                    width: 200px;
+                    width: 95%;
                     margin: 0 auto;
                     font-weight: 600;
                 }
                 .text {
                     font-size: 16px;
                     color: var(--text-color);
-                    width: 85%;
+                    width: 95%;
                     margin: 0 auto;
                 }
             }
