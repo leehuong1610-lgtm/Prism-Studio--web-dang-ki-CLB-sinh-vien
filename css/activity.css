@@ -80,6 +80,10 @@ h1, h2, h3 {
     display: none;
 }
 
+main {
+    background-color: #f4f4f4;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 25px;
@@ -94,9 +98,12 @@ h1, h2, h3 {
 }
 
 .btn-accent {
-    background-color: var(--color-accent);
+    background-color: #1c834a;
     color: white;
-    box-shadow: 0 4px 8px rgba(46, 204, 113, 0.4);
+}
+
+a.btn.btn-close:hover {
+    transform: translateY(-3px);
 }
 
 .btn-accent:hover {
@@ -483,6 +490,19 @@ label:hover {
         display: grid;
         gap: 5px;
     }
+}
+
+@media (max-width: 392px) {
+    .modal-footer {
+        flex-direction: column;
+    }
+
+    a.btn.btn-close {
+        order: 2;
+        margin-top: 5px;
+    }
+
+
 }
 
 
