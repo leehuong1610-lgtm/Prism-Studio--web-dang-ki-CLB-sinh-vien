@@ -515,7 +515,7 @@ h1, h2, h3 {
     background-color: rgb(144, 124, 133);
     .s1-wrap {
         width: 100%;
-        max-width: 375px;
+        max-width: 450px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -526,7 +526,7 @@ h1, h2, h3 {
             color: #FFFFFF;
         }
         .text {
-            font-size: 18px;
+            font-size: 16px;
             max-width: 375px;
             margin: 0 auto;
             color: rgb(250, 239, 246);
