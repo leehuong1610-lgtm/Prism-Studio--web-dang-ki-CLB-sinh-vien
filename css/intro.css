@@ -37,7 +37,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Inter";
-    letter-spacing: 1.5px;
+    letter-spacing: 0.5px;
 }
 
 
@@ -131,6 +131,7 @@ h1, h2, h3 {
 .text-sect1 {
     font-size: 24px;
     font-weight: 500;
+    letter-spacing: 1.5px;
     color: var(--text-color);
 }
 .box-image-sect1 {
@@ -218,6 +219,7 @@ h1, h2, h3 {
 .press-text-sect2 {
     font-size: 19px;
     font-weight: 500;
+    letter-spacing: 1.5px;
     color: var(--text-color);
 }
 
@@ -311,7 +313,7 @@ h1, h2, h3 {
 .press-text-sect3 {
     font-size: 21px;
     font-weight: 500;
-    text-align: center;
+    letter-spacing: 1.5px;
     color: var(--text-color);
 }
 
@@ -370,6 +372,7 @@ h1, h2, h3 {
             font-size: 20px;
             font-weight: 500;
             text-align: center;
+            letter-spacing: 1.5px;
             color: var(--background-item);
         }
 
