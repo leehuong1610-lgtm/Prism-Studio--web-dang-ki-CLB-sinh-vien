@@ -216,7 +216,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     height: 480px;
-    background-color: var(--background-2);
+    background-color: rgb(244, 244, 244);
     .s3-wrap {
         display: flex;
         flex-direction: column;
