@@ -124,9 +124,9 @@ h1, h2, h3 {
     gap: 20px;
 }
 .title-sect1 {
-    font-size: 50px;
+    font-size: 58px;
     font-weight: 700;
-    color: var(--title-color-1);
+    color: var(--title-color-2);
 }
 .text-sect1 {
     font-size: 24px;
@@ -241,7 +241,7 @@ h1, h2, h3 {
     font-size: 45px;
     font-weight: 900;
     text-align: center;
-    color: var(--title-color-3);
+    color: var(--title-color-2);
 }
 .box-inner-sect3 {
     width: 70%;
@@ -307,7 +307,7 @@ h1, h2, h3 {
 .press-title-sect3 {
     font-size: 29px;
     font-weight: 700;
-    color: var(--title-color-3);
+    color: var(--small-title);
 }
 .press-text-sect3 {
     font-size: 21px;
