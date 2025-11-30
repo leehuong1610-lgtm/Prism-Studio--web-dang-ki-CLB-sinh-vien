@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng Ký Tham Gia Hoạt Động</title>
     <link rel="stylesheet" href="css/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Carattere&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kaisei+Decol&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></head>
 <body>
+
     <header class="header">
         <div class="container">
             <h1>Prism Studio</h1>
@@ -29,45 +28,48 @@
         </div>
     </header>
 
-    <main>
-        <div class="box">
-            <div class="title">
-                Đăng kí tham gia
-            </div>
-            <div class="discript">
-                Vui lòng điền thông tin chi tiết của bạn để tham gia hoạt động
-            </div>
-            <div class="form">
-                <div class="item">
-                    <p>Họ và tên: </p>
-                    <input type="text" placeholder="Nguyễn Văn A">
-                </div>
-                <div class="item">
-                    <p>Email: </p>
-                    <input type="email" placeholder="email@student.com">
-                </div>
-                <div class="item">
-                    <p>Số điện thoại: </p>
-                    <input type="tel" placeholder="0897654354">
-                </div>
-                <div class="item1">
-                    <p>Chọn hoạt động bạn muốn tham gia:</p>
-                    <select name="activity" id="activity-select" class="select"> 
-                        <option value="" disabled selected>Hoạt động bạn sẽ tham gia: </option>
-                        <option value="dev">Dev</option>
-                        <option value="design">Design</option>
-                        <option value="content">Ban nội dung</option>
-                    </select>
-                </div>
-                <div class="item2">
-                    <p>Lý do:</p>
-                    <input type="text" placeholder="Ví dụ: Tôi muốn hoàn thiện kỹ năng giao tiếp và cải thiện thiết kế UX/UI">
-                </div>
-            </div>
-            <button class="button">Hoàn tất đăng kí</button>
+    <form class="box">
+        <div class="title">
+            Đăng kí tham gia
         </div>
-    </main>
-    
+        <div class="discript">
+            Vui lòng điền thông tin chi tiết của bạn để tham gia hoạt động
+        </div>
+        <div class="form">
+            <div class="item">
+                <p>Họ và tên: </p>
+                <input type="text" placeholder="Nguyễn Văn A" required>
+            </div>
+            <div class="item">
+                <p>Email: </p>
+                <input type="email" placeholder="email@student.com" id="gmail" required>
+            </div>
+            <div class="item">
+                <p>Số điện thoại: </p>
+                <input type="tel" placeholder="0897654354" id="sodienthoai" maxlength="11" required>
+            </div>
+            <div class="item1">
+                <p>Chọn hoạt động bạn muốn tham gia:</p>
+                <select name="--Hoạt động--" id="" class="select" required>
+                    <option value="">Hoạt động bạn sẽ tham gia: </option>
+                    <option value="truyenthong">Dev</option>
+                    <option value="haucan">Design</option>
+                    <option value="tochuc">Ban nội dung</option>
+                </select>
+            </div>
+            <div class="item2">
+                <p>Lý do:</p>
+                <input type="text" placeholder="Ví dụ: Tôi muốn hoàn thiện kỹ năng giao tiếp và cải thiện thiết kế UX/UI" id="lido" required>
+            </div>
+        </div>
+        <button type="submit" class="button" id="dangki">Hoàn tất đăng kí</button>
+    </form>
+    <div id="successAlert" class="alert">
+        <video id="successVideo" autoplay muted>
+            <source src="742f7ea29cbfd7fd3f4848f17e621070 (online-video-cutter.com).mp4" type="video/mp4">
+        </video>
+    </div>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-section footer-brand">
@@ -99,5 +101,6 @@
             <p>&copy; 2025 Prism Studio. Bảo lưu mọi quyền. Phát triển cộng đồng bền vững.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
