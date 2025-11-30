@@ -13,14 +13,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
+    font-family: "Poppins",sans-serif;
 }
 .section1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 640px;
+    height: 580px;
     background-color: rgb(144, 124, 133);
     .s1-wrap {
         width: 100%;
@@ -30,12 +30,12 @@
         gap: 30px;
         text-align: center;
         .title {
-            font-size: 96px;
+            font-size: 90px;
             font-weight: 800;
             color: #FFFFFF;
         }
         .text {
-            font-size: 28px;
+            font-size: 25px;
             max-width: 980px;
             margin: 0 auto;
             color: rgb(250, 239, 246);
@@ -43,13 +43,26 @@
         .button-cta {
             width: 420px;
             margin: 0 auto;
-            height: 60px;
+            height: 50px;
             background-color: var(--background-button);
             text-align: center;
             align-content: center;
             border-radius: 50px;
             font-size: 28px;
             color: #FFFFFF;
+            user-select: none;   
+            transition: all 0.2s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+                filter: brightness(1.1);
+            }
+            &:active {
+                transform: scale(0.96);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                filter: brightness(0.9);
+            }
         }
     }
 }
@@ -184,7 +197,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 420px;
+    height: 380px;
     background-color: var(--background-1);
     .s4-wrap {
         display: flex;
@@ -209,22 +222,29 @@
             border-radius: 50px;
             font-size: 28px;
             color: #FFFFFF;
+            user-select: none;   
+            transition: all 0.2s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+                filter: brightness(1.1);
+            }
+            &:active {
+                transform: scale(0.96);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                filter: brightness(0.9);
+            }
         }
     }
 }
 @media screen and (max-width: 1200px) {
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppis";
-}
 .section1 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 640px;
+    height: 580px;
     background-color: rgb(144, 124, 133);
     .s1-wrap {
         width: 100%;
