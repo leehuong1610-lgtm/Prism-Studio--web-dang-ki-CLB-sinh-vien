@@ -561,7 +561,7 @@ h1, h2, h3 {
     .press-title-sect3 {
         font-size: 26px;
         font-weight: 700;
-        color: var(--title-color-3);
+        color: var(--title-color-2);
         transition: all 0.5s ease;
     }
     .press-text-sect3 {
@@ -674,7 +674,7 @@ h1, h2, h3 {
     .press-title-sect3 {
         font-size: 18px;
         font-weight: 700;
-        color: var(--title-color-3);
+        color: var(--title-color-2);
         transition: all 0.5s ease;
     }
     .press-text-sect3 {
