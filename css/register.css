@@ -16,8 +16,8 @@ body {
     --color-text-light: #ffffff;
     --shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.05);
     --shadow-card: 0 8px 20px rgba(30, 132, 73, 0.1); 
-    --font-heading: 'Outfit', sans-serif;
-    --font-body: 'Poppins', sans-serif;
+    --font-heading: 'Intel', sans-serif;
+    --font-body: 'Intel', sans-serif;
 }
 
 * {
@@ -140,7 +140,7 @@ h1, h2, h3 {
                 background-color: #FFFFFF;
                 padding: 7px;
                 box-sizing: border-box;
-                font-family: Montserrat;
+                font-family: 'Intel';
             }
         }
         .item1 {
@@ -160,7 +160,7 @@ h1, h2, h3 {
                 border-radius: 15px;
                 background-color: #FFFFFF;
                 padding: 7px;
-                font-family: Montserrat;
+                font-family: 'Intel';
                 color: rgba(0, 0, 0, 0.421);
             }
         }
@@ -182,7 +182,7 @@ h1, h2, h3 {
                 background-color: #FFFFFF;
                 padding: 7px;
                 box-sizing: border-box;
-                font-family: Montserrat;
+                font-family: 'Intel';
             }
         }
     }
@@ -196,7 +196,7 @@ h1, h2, h3 {
         font-weight: 600;
         font-size: 22px;
         color: #FFFFFF;
-        font-family: Montserrat;
+        font-family: 'Intel';
         display: flex;
         justify-content: center;
         align-items: center;
@@ -228,7 +228,7 @@ h1, h2, h3 {
     display: none;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: 'Intel';
     z-index: 9999;
     box-sizing: border-box;
     video {
