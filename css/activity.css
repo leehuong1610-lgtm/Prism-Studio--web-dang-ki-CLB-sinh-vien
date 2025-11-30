@@ -102,6 +102,10 @@ main {
     color: white;
 }
 
+a.btn.btn-close:hover {
+    transform: translateY(-3px);
+}
+
 .btn-accent:hover {
     background-color: #27ae60; 
     transform: translateY(-3px);
