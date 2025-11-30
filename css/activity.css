@@ -484,5 +484,18 @@ label:hover {
     }
 }
 
+@media (max-width: 392px) {
+    .modal-footer {
+        flex-direction: column;
+    }
+
+    a.btn.btn-close {
+        order: 2;
+        margin-top: 5px;
+    }
+
+
+}
+
 
 
